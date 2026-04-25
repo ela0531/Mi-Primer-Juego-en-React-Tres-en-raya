@@ -1,0 +1,35 @@
+EVIDENCIA HISTORIAL DEL PROYECTO
+Juego Tres en Raya RD 🇩🇴
+
+Proceso que segui para desarrollar el proyecto
+
+1. Primero vi los dos videos recomendados para entender mejor React y cómo hacer el juego de Tres en Raya.
+
+2. Cree el proyecto en React y prepare la estructura para empezar a trabajar.
+Comandos usados:
+npm create vite@latest primer-juego
+npm install
+npm run dev
+
+3. Hice el tablero 3x3 usando botones y un arreglo de 9 posiciones para guardar las jugadas.
+
+4. Implemente los turnos usando useState para alternar entre X y O en cada jugada.
+
+5. Programe la lógica para detectar:
+- ganador
+- empate
+- bloquear jugadas repetidas
+
+6. Agregue el boton Reiniciar para comenzar otra partida sin perder el marcador.
+
+7. Añadi un marcador que guarda puntajes usando localStorage.
+
+8. Implemente dos modos de juego:
+- Dos jugadores
+- Jugador vs máquina
+
+9. Personalicé el juego con tematica dominicana:
+- colores de la bandera 🇩🇴
+- nombres Taino vs Caribe
+- mensajes personalizados
+- diseño con CSS
